@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Autopsy Table | Autopsy.no</title>
+
+    <meta
+      name="description"
+      content="Virtual dissection table / virtual anatomy table
+										Teaching anatomy and dissection lessons completely
+										virtually and using digital dissection tables"
+    />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://Autopsy.no/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Virtual Autopsy Table" />
+    <meta
+      property="og:description"
+      content="Virtual dissection table / virtual anatomy table
+										Teaching anatomy and dissection lessons completely
+										virtually and using digital dissection tables"
+    />
+    <meta property="og:url" content="Autopsy.no" />
+    <meta property="og:site_name" content="Autopsy.no Home" />
+    <meta property="og:image" content="images/screenshots/screen.jpg" />
+    <meta name="twitter:card" content="Virtual Anatomy and Autopsy Table" />
+    <meta
+      name="twitter:description"
+      content="Virtual dissection table / virtual anatomy table
+										Teaching anatomy and dissection lessons completely
+										virtually and using digital dissection tables"
+    />
+    <meta name="twitter:title" content="Virtual Autopsy Table" />
+    <meta name="twitter:site" content="https://Autopsy.no/" />
+    <meta name="twitter:image" content="https://Autopsy.no/images/AutopsyTableLandingPage.jpg" />
+    <meta name="twitter:creator" content="Virtual Autopsy Table" />
+    <!-- Lib CSS -->
+    <link href="minify/rgen_min.css" rel="stylesheet" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="imagesapple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="imagesapple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 9]><script src="js/ie-matchmedia.js"></script><![endif]-->
+    <!-- 3d viewer 
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', '.......', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <style>
+      .justify {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      .demo-form-container {
+        display: flex;
+        align-items: center;
+      }
+      .demo-btn {
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page" data-linkscroll="y">
+      <nav class="nav-wrp dark bg-glass-dark-01" data-sticky="y">
+        <div class="container pd-0 min-px-h100 flex-cc" data-rgen-sm="pd-lr-20 h-reset">
+          <div class="flex-row gt0 middle-md">
+            <!--=================================
+				= Logo section
+				==================================-->
+            <div class="flex-col-md-3">
+              <div class="nav-header">
+                <a class="navbar-brand" href="#home"
+                  ><img src="images/logo-light.png" alt="Brand logo"
+                /></a>
+                <a
+                  class="nav-handle"
+                  data-nav=".nav"
+                  data-navopen="pe-7s-more"
+                  data-navclose="pe-7s-close"
+                  ><i class="pe-7s-more"></i
+                ></a>
+              </div>
+            </div>
+            <div class="flex-col-md-9 align-r">
+              <div class="nav">
+                <ul class="nav-links sf-menu">
+                  <li><a href="#about">About us</a></li>
+                  <li><a href="#casestudies">Virtual Table</a></li>
+                  <li><a href="#services"> Features </a></li>
+                  <li><a href="#portfolio">Solution</a></li>
+                  <li><a href="#testimonials">more info</a></li>
+				  <li><a href="#popup-content" class="btn btn-white mini set-popup">Contact Us</a><li>
+				  <li><a href="#popup-content-2" class="btn btn-default mini set-popup demo-btn"><i class="fa fa-calendar mr-r-5"></i> BOOK A DEMO</a><li>
+                </ul>
+              </div>
+              <!-- // END : Nav //  -->
+            </div>
+            <!-- // END : Column //  -->
+          </div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- // END : container //  -->
+      </nav>
+      <section class="pos-rel pd-tb-large" id="home" data-rgen-sm="pd-tb-small">
+        <div class="container small align-c" data-rgen-sm="pd-tb-small">
+          <div class="w75 mr-auto typo-light">
+            <p class="f-3 fs30 mr-0">Introducing</p>
+            <h2 class="title large f-1 bold-1 mr-b-mini" data-rgen-sm="medium">
+              Virtual Autopsy Table
+            </h2>
+            <br /><br /><br />
+            <p class="title-sub f-2" data-rgen-sm="small">
+              Teaching anatomy and dissection using technology in medical courses
+            </p>
+            <p class="title-sub f-2" data-rgen-sm="small">with our virtual autopsy tables</p>
+            <div class="nav-other">
+              <a
+                href="#popup-content-2"
+                class="btn btn-white set-popup"
+                style="font-size: 24px !important"
+                ><i class="fa fa-calendar"></i> &nbsp;&nbsp; Book a demo</a
+              >
+            </div>
+            <!-- // END : Contact button //  -->
+          </div>
+        </div>
+        <!-- // END : Container //  -->
+        <b class="full-wh bg-dark op-06 z1"></b>
+        <div class="bg-cover bg-cc full-wh" id="videobg1" data-bg="images/bg1.jpg">
+          <!-- BACKGROUND VIDEO -->
+          <div
+            class="videobg"
+            data-property="{videoURL:'dorZ3vag5PI',containment:'#videobg1',showControls:true, autoPlay:true, loop:true, vol:50, mute:true, startAt:10, realfullscreen:false, opacity:1, addRaster:true, quality:'default', optimizeDisplay:true}"
+          ></div>
+        </div>
+      </section>
+      <section class="pos-rel pd-tb-medium" id="about" data-rgen-sm="pd-tb-small">
+        <div class="container">
+          <div class="w75 mr-auto align-c">
+            <p class="title-sub f-2" data-rgen-sm="small">
+              Technology replaces traditional methods
+            </p>
+            <p class="title bold-n mini mr-b-10" data-rgen-sm="small">
+              An alternative way to learn anatomy and dissection
+            </p>
+          </div>
+          <p class="mr-b-mini">
+            <figure class="hover-box1">
+              <img src="images/content-img-03.jpg" class="mr-auto" alt="image" />
+            </figure>
+            <!-- / hover box -->
+            <!--<model-viewer style="border-shadow:1px solid black ; height:600px; width:600px;" class="mr-auto" src="models/3d_virtualTable.glb" ar ar-placement="wall" ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model of some wall art"></model-viewer>
+			 -->
+          </p>
+          <h3 class="title f-1 bold-1 align-c" data-rgen-sm="medium">How Our Projects Help You</h3>
+          <hr class="mr-tb-30" />
+          <div class="flex-row gt20 mb20 mr-b-mini">
+            <div class="flex-col-md-3">
+              <div class="info-obj img-l g20 mini mr-0">
+                <div class="img txt-default">
+                  <span class="iconwrp"><i class="pe-7s-piggy"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title bold-n mini mr-b-10">Low cost</h3>
+                  <p class="mr-0 justify">
+                    Related to associated with purchasing, maintaining and preparing biological
+                    samples for autopsy
+                  </p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="flex-col-md-3">
+              <div class="info-obj img-l g20 mini mr-0">
+                <div class="img txt-default">
+                  <span class="iconwrp"><i class="pe-7s-joy"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title bold-n mini mr-b-10">Easy to use</h3>
+                  <p class="mr-0 justify">
+                    Simple UI/UX and using high quality touch screen monitor up 4k resolution output
+                  </p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="flex-col-md-3">
+              <div class="info-obj img-l g20 mini mr-0">
+                <div class="img txt-default">
+                  <span class="iconwrp"><i class="pe-7s-study"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title bold-n mini mr-b-10">Help in E-learning</h3>
+                  <p class="mr-0 justify">Help in learning anatomy lessons in virtual classes</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="flex-col-md-3">
+              <div class="info-obj img-l g20 mini mr-0">
+                <div class="img txt-default">
+                  <span class="iconwrp"><i class="pe-7s-umbrella"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title bold-n mini mr-b-10">Clean And Safe</h3>
+                  <p class="mr-0 justify">
+                    Reducing the risks caused by the use of chemicals that are needed to preserve
+                    biological corpses.
+                  </p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+          </div>
+          <!-- // END : row //  -->
+          <div class="flex-row gt20 middle-md pd-mini bg-gray" data-rgen-sm="align-c">
+            <div class="flex-col-md-7" data-rgen-sm="mr-b-20">
+              <p class="title-sub f-2 mr-0">
+                If you have any questions, we will be happy to answer you
+              </p>
+            </div>
+            <!-- // END : column //  -->
+            <div class="flex-col-md-2">
+              <a
+                href="#popup-content"
+                class="btn btn-white solid bdr-2 btn-block set-popup"
+                data-rgen-sm="medium bold-n"
+                >Contact us</a
+              >
+            </div>
+            <!-- // END : column //  -->
+          </div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- // END : Container //  -->
+      </section>
+      <section class="pos-rel pd-tb-small" id="casestudies" data-rgen-sm="pd-tb-small">
+        <div class="container">
+          <div class="flex-row gt20 mb20 middle-md">
+            <div class="flex-col-md-4">
+              <h2 class="title f-1" data-rgen-sm="small align-c">3D View of our table</h2>
+              <p class="title-sub f-2 small" data-rgen-sm="small align-c">
+                The following 3D model is one of the concept examples designed for universities.
+              </p>
+              <div class="info-obj img-l g0 mini h100 align-l" data-rgen-sm="mr-b-20 h-reset">
+                <div class="info bg-gray pd-tiny rd-5 h100" data-rgen-sm="h-reset">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Devices</th>
+                        <th scope="col">Details</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Screen</th>
+                        <td>2X 32inch 120HZ Touchscreen</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">External Remote</th>
+                        <td>Air mouse | Wireless keyboard</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Extra Output</th>
+                        <td>1 HDMI</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Size(W*H*L)</th>
+                        <td>90cm * 90cm * <200cm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <hr />
+                  <div class="mr-t-10">
+                    <div class="inline-block align-m">
+                      <h3 class="bold-1 fs16 mr-0">Price estimate</h3>
+                      <em class="fs12">contact us</em>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // END : Info object //  -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="flex-col-md-7 flex-col-md-offset-1">
+              <div
+                class="carousel-widget ctrl-1 popgallery-widget"
+                data-items="1"
+                data-nav="true"
+                data-pager="true"
+                data-itemrange="false"
+                data-margin="40"
+                data-autoplay="false"
+                data-hauto="false"
+                data-center="false"
+              >
+                <div class="owl-carousel">
+                  <div class="item">
+                    <figure class="hover-box1">
+                      <!-- Project image -->
+                      <div class="sketchfab-embed-wrapper">
+                        <iframe
+                          title="Virtual Autopsy Table V1"
+                          frameborder="0"
+                          allowfullscreen
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          allow="autoplay; fullscreen; xr-spatial-tracking"
+                          xr-spatial-tracking
+                          execution-while-out-of-viewport
+                          execution-while-not-rendered
+                          web-share
+                          width="700"
+                          height="500"
+                          src="https://sketchfab.com/models/cd3dbfec8d0b47aabc1a5a3069020121/embed?annotations_visible=0&ui_theme=dark"
+                        >
+                        </iframe>
+                      </div>
+                    </figure>
+                    <!-- / hover box -->
+                    <div class="pd-tiny bg-dark typo-light" data-rgen-sm="pd-20">
+                      <h2 class="title small f-1">Virtual Autopsy Table V1</h2>
+                      <p></p>
+                    </div>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.owl-carousel -->
+              </div>
+              <!-- /.carousel-widget -->
+            </div>
+            <!-- // END : column //  -->
+          </div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- // END : Container //  -->
+      </section>
+      <section class="pos-rel pd-tb-small" id="services" data-rgen-sm="pd-tb-small">
+        <div class="container typo-light">
+          <div class="w75 mr-auto align-c typo-light mr-b-small" data-rgen-sm="mr-b-30">
+            <h2 class="title f-1" data-rgen-sm="small">Our project Features</h2>
+            <p class="title-sub f-2 small" data-rgen-sm="small">
+              Among the various features of the program, the following can be mentioned as :
+            </p>
+          </div>
+          <div class="rw eq3 gt20 mb20">
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-photo-gallery"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Real-time 3D volumetric</h3>
+                  <p class="mr-0">Using real images sampled from corpses.</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-scissors"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Cutter</h3>
+                  <p class="mr-0">
+                    Volumetric models can be scrolled and cut from any desired point.
+                  </p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-plugin"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Schematic 3d models</h3>
+                  <p class="mr-0">Along with 3D schematic models.</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-download"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Import your volumetric images</h3>
+                  <p class="mr-0">The ability to import your personalized volumetric images.</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-note"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Drawing/Writing on Screen</h3>
+                  <p class="mr-0">The feature of drawing/writing on 3D models.</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+            <div class="cl">
+              <div class="info-obj img-t g20 mini align-c h100 bg-glass-light-01 pd-tiny mr-0">
+                <div class="img txt-white">
+                  <span class="iconwrp"><i class="pe-7s-monitor"></i></span>
+                </div>
+                <div class="info">
+                  <h3 class="title mini">Suport touch screens</h3>
+                  <p class="mr-0">User interface with support for touch monitors.</p>
+                </div>
+              </div>
+              <!-- info box -->
+            </div>
+            <!-- // END : column //  -->
+          </div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- // END : Container //  -->
+        <div
+          class="full-vh bg-cc bg-cover"
+          data-stellar="y"
+          data-stellar-ratio="0.8"
+          data-rgen-sm="h100"
+          data-bg="images/blur-bg-01.jpg"
+        ></div>
+      </section>
+      <section class="pd-tb-mini bg-gray" data-rgen-sm="pd-tb-small">
+        <div class="container align-c">
+          <h2 class="title small f-1">we are based on ...</h2>
+          <ul class="inline-list gt-small size-small reset op-05">
+            <li><img src="images/unity3d.png" alt="Unity3d" /></li>
+            <li><img src="images/Nvidia-logo.png" alt="Nvidia" /></li>
+            <li><img src="images/mic-windows-logo.png" alt="Windows" /></li>
+          </ul>
+        </div>
+      </section>
+      <section class="pos-rel pd-tb-small" data-rgen-sm="pd-tb-small" id="portfolio">
+        <div class="container align-c">
+          <div class="w75 mr-auto align-c">
+            <h2 class="title f-1" data-rgen-sm="small">Our solution in action</h2>
+            <p class="title-sub f-2 small" data-rgen-sm="small">
+              See the features of the program in action
+            </p>
+          </div>
+          <ul class="rw eq3 gt10 mb10 popgallery-widget">
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen3.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">Schematic 3d models</h3>
+                    <p class="mr-0 fs12 op-08">schematic of all part of body</p>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen3.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen6.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">Volumetric Images</h3>
+                    <p class="mr-0 fs12 op-08">from visible human project</p>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen6.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen1.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+                    <!--<a href="#" target="_blank" class="iconbox sq50 bg-default rd fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								-->
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">Anatomy table V1</h3>
+                    <p class="mr-0 fs12 op-08"></p>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen1.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen2.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">multi cutting</h3>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen2-2.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen4.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">Drawing mode</h3>
+                    <p class="mr-0 fs12 op-08"></p>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen4.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+            <li class="cl">
+              <figure class="hover-box1">
+                <div class="overlay flex-cc typo-light">
+                  <div class="content mr-30 z2">
+                    <!-- Pop-up Image and link -->
+                    <a
+                      href="images/screenshots/Screen5-2.jpg"
+                      class="iconbox sq50 bg-default rd fs24 mr-b-20 pop-img"
+                      ><i class="pe-7s-expand1"></i
+                    ></a>
+                    <!-- Text content -->
+                    <h3 class="title mini bold-n mr-b-10">Custome Rendering Mode</h3>
+                    <p class="mr-0 fs12 op-08"></p>
+                  </div>
+                  <b class="full-wh bg-dark op-08 z1 l0"></b>
+                </div>
+                <!-- Project image -->
+                <img src="images/screenshots/Screen5.jpg" alt="image" />
+              </figure>
+              <!-- / hover box -->
+            </li>
+            <!-- // END : column //  -->
+          </ul>
+          <!-- // END : Row //  -->
+        </div>
+        <!-- // END : Container //  -->
+      </section>
+      <section class="pd-tb-mini bg-default pos-rel" data-rgen-sm="pd-tb-small align-c">
+        <div class="container typo-light">
+          <div class="flex-row gt20 middle-md"></div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- container -->
+      </section>
+      <section class="pd-tb-small pos-rel bg-gray" data-rgen-sm="pd-tb-small" id="testimonials">
+        <div class="container">
+          <div class="w75 mr-auto align-c mr-b-60">
+            <h2 class="title f-1 large" data-rgen-sm="small">more information</h2>
+            <p class="title-sub f-2 small justify" data-rgen-sm="small">
+              The Virtual Autopsy is software powered by the Unity3D game engine to aid universities
+              and health education centers. Using the visible human projects datasets (VHP) and
+              Volume rendering methods, our solution is the best way to reduce the unpleasant
+              experience of using real corpses in autopsy. The preservation of real corpses requires
+              expensive and toxic preservatives, using a virtual environment helps keeping the
+              laboratory safe and clean and eliminates the extra costs of buying preservatives and
+              real corpses.
+              <br />
+              <br />
+              Are you interested in this product? don't hesitate to contact us.
+            </p>
+          </div>
+          <div class="flex-row gt40 mb20"></div>
+          <!-- // END : row //  -->
+        </div>
+        <!-- // END : container //  -->
+      </section>
+      <!-- ************** END : Testimonial section **************  -->
+      <!--
+	************************************************************
+	* Footer section
+	************************************************************ -->
+      <footer class="pos-rel pd-0 align-c">
+        <div class="bdr-b bdr-op-1">
+          <a href="#" target="_blank" class="sq80 fs26 rd-0 iconbox btn-dark"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="sq80 fs26 rd-0 iconbox btn-dark"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </div>
+        <div class="container pd-tb-mini">
+          <p class="mr-b-10">
+            <a href="https://Autopsy.no/" class="inline-block max-px-w150"
+              ><img src="images/logo.png" class="max-px-w140" alt="logo"
+            /></a>
+          </p>
+          <p class="mr-0">
+            <a href="https://Autopsy.no" target="_blank">Autopsy.no</a> &copy;
+            <span class="copyright-year"></span>
+          </p>
+        </div>
+      </footer>
+      <!-- / Footer section -->
+      <!-- ************** END : Footer section **************  -->
+      <!--
+	************************************************************
+	* Popup form block
+	************************************************************ -->
+      <!-- form : "mfp-hide" Add this class before using -->
+      <div
+        id="popup-content"
+        class="white-popup-block popup-content max-w60 mfp-hide"
+        data-rgen-sm="w-reset"
+        data-rgen-md="w-reset"
+      >
+        <div class="bdr-20 bdr-default">
+          <div class="pop-header pd-b-0" data-rgen-sm="pd-20">
+            <div class="flex-row gt20 mb20">
+              <div class="flex-col-md-4">
+                <div class="info-obj img-l g20 tiny mr-0 align-l">
+                  <div class="img txt-default">
+                    <span class="iconwrp"><i class="pe-7s-call"></i></span>
+                  </div>
+                  <div class="info">
+                    <h3 class="title mini mr-b-4">Phone</h3>
+                    <p class="mr-0">
+                      <strong>Office : </strong> +47 968 08 885
+                    </p>
+                  </div>
+                </div>
+                <!-- info box -->
+              </div>
+              <!-- // END : column //  -->
+              <div class="flex-col-md-4">
+                <div class="info-obj img-l g20 tiny mr-0 align-l">
+                  <div class="img txt-default">
+                    <span class="iconwrp"><i class="pe-7s-mail"></i></span>
+                  </div>
+                  <div class="info">
+                    <h3 class="title mini mr-b-4">Email</h3>
+                    <p class="mr-0">
+                      <a href="mailto://info@Autopsy.no">info[@]Autopsy.no</a> <br />
+                      <a href="mailto://admin@Autopsy.no">admin[@]Autopsy.no</a> <br />
+                      <a href="mailto://">virtualautopsytable[@]gmail.com</a>
+                    </p>
+                  </div>
+                </div>
+                <!-- info box -->
+              </div>
+              <!-- // END : column //  -->
+            </div>
+            <!-- // END : row //  -->
+          </div>
+          <div class="pop-body" data-rgen-sm="pd-20">
+            <div class="flex-row gt40 mb20">
+              <div class="flex-col-md-6">
+                <!-- form-block -->
+                <div class="form-block">
+                  <form action="form-data/formdata.php" class="form-widget">
+                    <div class="field-wrp">
+                      <input type="hidden" name="to" value="virtualautopsytable[@]gmail.com" />
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          data-label="Name"
+                          required
+                          data-msg="Please enter name."
+                          type="text"
+                          name="name"
+                          placeholder="Enter your name"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          data-label="Email"
+                          required
+                          data-msg="Please enter email."
+                          type="email"
+                          name="email"
+                          placeholder="Enter your email"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          required
+                          data-label="Phone"
+                          data-msg="Please phone number."
+                          type="text"
+                          name="phone"
+                          placeholder="Enter your phone number"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          data-label="Message"
+                          required
+                          data-msg="Please enter your message."
+                          name="message"
+                          placeholder="Add your message"
+                          cols="30"
+                          rows="10"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn solid btn-dark block">
+                      <i class="fa fa-envelope-o"></i> SUBMIT
+                    </button>
+                  </form>
+                  <!-- / form -->
+                </div>
+                <!-- / form block -->
+              </div>
+              <!-- // END : column //  -->
+              <div class="flex-col-md-6" data-rgen-sm="px-h400">
+                <section></section>
+              </div>
+              <!-- // END : column //  -->
+            </div>
+            <!-- // END : row //  -->
+          </div>
+        </div>
+      </div>
+      <!-- /#popup-content -->
+      
+      <!-- Book a Demo Popup Form -->
+      <div
+        id="popup-content-2"
+        class="white-popup-block popup-content max-w60 mfp-hide"
+        data-rgen-sm="w-reset"
+        data-rgen-md="w-reset"
+      >
+        <div class="bdr-20 bdr-default">
+          <div class="pop-header pd-b-0" data-rgen-sm="pd-20">
+            <h2 class="title f-1 align-c">Book a Demo</h2>
+            <p class="title-sub f-2 align-c">Schedule a demonstration of our Virtual Autopsy Table</p>
+          </div>
+          <div class="pop-body" data-rgen-sm="pd-20">
+            <div class="form-block">
+              <form id="demo-form" class="form-widget">
+                <div class="field-wrp">
+                  <input type="hidden" name="to" value="virtualautopsytable[@]gmail.com" />
+                  <input type="hidden" name="form-type" value="demo-request" />
+                  
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      data-label="First Name"
+                      required
+                      data-msg="Please enter your first name."
+                      type="text"
+                      name="firstname"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      data-label="Last Name"
+                      required
+                      data-msg="Please enter your last name."
+                      type="text"
+                      name="lastname"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                  
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      data-label="Work Email"
+                      required
+                      data-msg="Please enter your work email."
+                      type="email"
+                      name="work-email"
+                      placeholder="Work Email"
+                    />
+                  </div>
+                  
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      required
+                      data-label="Phone Number"
+                      data-msg="Please enter your phone number."
+                      type="text"
+                      name="phone"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  
+                  <div class="form-group">
+                    <select
+                      class="form-control"
+                      required
+                      data-label="Country"
+                      data-msg="Please select your country."
+                      name="country"
+                    >
+                      <option value="">Select Country</option>
+                      <option value="Norway">Norway</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Finland">Finland</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Germany">Germany</option>
+                      <option value="France">France</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      data-label="Organization"
+                      required
+                      data-msg="Please enter your organization."
+                      type="text"
+                      name="organization"
+                      placeholder="Organization/Institution"
+                    />
+                  </div>
+                  
+                  <div class="form-group">
+                    <select
+                      class="form-control"
+                      required
+                      data-label="How did you hear about us"
+                      data-msg="Please select how you heard about us."
+                      name="hear-about"
+                    >
+                      <option value="">How did you hear about us?</option>
+                      <option value="Search Engine">Search Engine</option>
+                      <option value="Social Media">Social Media</option>
+                      <option value="Referral">Referral</option>
+                      <option value="Conference/Event">Conference/Event</option>
+                      <option value="Advertisement">Advertisement</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      data-label="Additional Information"
+                      name="additional-info"
+                      placeholder="Any additional information or specific requirements"
+                      cols="30"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn solid btn-default block">
+                  <i class="fa fa-calendar"></i> REQUEST DEMO
+                </button>
+              </form>
+              <!-- / form -->
+            </div>
+            <!-- / form block -->
+          </div>
+        </div>
+      </div>
+      <!-- /#popup-content-2 -->
+      
+      <!-- ************** END : Popup form block **************  -->
+    </div>
+    <!-- /#page -->
+    <!-- JavaScript -->
+    <script>
+      /* Use fonts with class name in sequence => f-1, f-2, f-3 .... */
+      var fgroup = ['Varela Round', 'Playfair Display', 'Rancho'];
+    </script>
+    <script data-pace-options='{ "ajax": false }' src="lib/pace/pace.min.js"></script>
+    <script src="minify/rgen_min.js"></script>
+    <script async src="js/rgen.js"></script>
+    <script async src="js/popup.js"></script>
+  </body>
+</html>

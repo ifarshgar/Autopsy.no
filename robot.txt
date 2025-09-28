@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /Images/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /minify/
+Disallow: /models/
+Disallow: /css/themes/
