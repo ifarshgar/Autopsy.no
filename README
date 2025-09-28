@@ -8,6 +8,8 @@ Autopsy.no is a project aimed at providing tools and resources for digital foren
 - Automated forensic analysis
 - Reporting and visualization tools
 
+<img src="./images/screenshot.png />
+
 ## Getting Started
 
 1. Clone the repository:
@@ -15,14 +17,6 @@ Autopsy.no is a project aimed at providing tools and resources for digital foren
   git clone https://github.com/yourusername/Autopsy.no.git
   ```
 2. Follow the setup instructions in the `docs/` directory.
-
-## Documentation
-
-See the [docs](docs/) folder for detailed documentation and usage guides.
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
 
 ## License
 
