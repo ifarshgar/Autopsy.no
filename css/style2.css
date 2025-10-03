@@ -1169,57 +1169,21 @@ a.link-white {
 
 .popup-content {
     background: white;
-    border-radius: 10px;
     width: 100%;
     max-width: 500px;
     max-height: 90vh;
     overflow-y: auto;
+    overflow-x: hidden;
     position: relative;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.popup-header {
-    background: #f8f9fa;
-    padding: 20px;
-    border-bottom: 1px solid #dee2e6;
-    border-radius: 10px 10px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.popup-title {
-    margin: 0;
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.close-popup {
-    background: none;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: #666;
-    line-height: 1;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.close-popup:hover {
-    color: #333;
-}
-
-.popup-body {
-    padding: 30px;
+#demo-form {
+  margin-top: -40px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .form-group label {
@@ -1229,6 +1193,7 @@ a.link-white {
     color: #333;
     font-size: 14px;
     text-align: left;
+    border: none;
 }
 
 .form-group input,
@@ -1244,9 +1209,7 @@ a.link-white {
 
 .form-group input:focus,
 .form-group select:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    outline: 1px solid #333;
 }
 
 .error-message {
